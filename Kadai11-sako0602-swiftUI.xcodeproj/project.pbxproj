@@ -14,6 +14,8 @@
 		69710C9C295D6CB300A375C8 /* Kadai11_sako0602_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69710C9B295D6CB300A375C8 /* Kadai11_sako0602_swiftUITests.swift */; };
 		69710CA6295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69710CA5295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITests.swift */; };
 		69710CA8295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69710CA7295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITestsLaunchTests.swift */; };
+		69F835F92962868D008525CC /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F835F82962868C008525CC /* Prefecture.swift */; };
+		69F835FC2962941D008525CC /* SheetPrefecturerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F835FB2962941D008525CC /* SheetPrefecturerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		69710CA1295D6CB300A375C8 /* Kadai11-sako0602-swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai11-sako0602-swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69710CA5295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai11_sako0602_swiftUIUITests.swift; sourceTree = "<group>"; };
 		69710CA7295D6CB300A375C8 /* Kadai11_sako0602_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai11_sako0602_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69F835F82962868C008525CC /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
+		69F835FA296291AD008525CC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		69F835FB2962941D008525CC /* SheetPrefecturerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPrefecturerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 			children = (
 				69710C8A295D6CAF00A375C8 /* Kadai11_sako0602_swiftUIApp.swift */,
 				69710C8C295D6CAF00A375C8 /* ContentView.swift */,
+				69F835FB2962941D008525CC /* SheetPrefecturerView.swift */,
+				69F835F82962868C008525CC /* Prefecture.swift */,
+				69F835FA296291AD008525CC /* MyPlayground.playground */,
 				69710C8E295D6CB200A375C8 /* Assets.xcassets */,
 				69710C90295D6CB200A375C8 /* Preview Content */,
 			);
@@ -257,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F835FC2962941D008525CC /* SheetPrefecturerView.swift in Sources */,
+				69F835F92962868D008525CC /* Prefecture.swift in Sources */,
 				69710C8D295D6CAF00A375C8 /* ContentView.swift in Sources */,
 				69710C8B295D6CAF00A375C8 /* Kadai11_sako0602_swiftUIApp.swift in Sources */,
 			);
