@@ -16,7 +16,7 @@ struct SheetPrefecturerView: View {
         NavigationStack {
             List{
                 ForEach(0..<Prefecture.all.count, id: \.self){ index in
-                    Button(Prefecture.all[index] ?? ""){
+                    Button(Prefecture.all[index] ?? "その他の都道府県"){
                         prefecture =  Prefecture.all[index]
                         showSheet = false
                     }
