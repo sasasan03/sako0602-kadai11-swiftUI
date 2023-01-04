@@ -10,14 +10,14 @@ import SwiftUI
 struct SheetPrefecturerView: View {
     
     @Binding var showSheet: Bool
-    @Binding var prefecture: String?
+    @Binding var selectedPrefecture: String?
     
     var body: some View {
         NavigationStack {
             List{
-                ForEach(0..<Prefecture.all.count, id: \.self){ index in
-                    Button(Prefecture.all[index] ?? "その他の都道府県"){
-                        prefecture =  Prefecture.all[index]
+                ForEach(Prefecture.all, id: \.self){ prefecture in
+                    Button(prefecture){
+                        selectedPrefecture = prefecture
                         showSheet = false
                     }
                 }
@@ -35,7 +35,7 @@ struct SheetPrefecturerView: View {
 
 struct SheetPrefecturerView_Previews: PreviewProvider {
     static var previews: some View {
-        SheetPrefecturerView(showSheet: Binding<Bool>.constant(false), prefecture: Binding<String?>.constant("")
+        SheetPrefecturerView(showSheet: Binding<Bool>.constant(false), selectedPrefecture: Binding<String?>.constant("")
     )
     }
 }

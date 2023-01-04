@@ -28,7 +28,7 @@ struct ContentView: View {
             .padding()
         }
         .sheet(isPresented: $showSheet) {
-            SheetPrefecturerView(showSheet: $showSheet, prefecture: $prefecture)
+            SheetPrefecturerView(showSheet: $showSheet, selectedPrefecture: $prefecture)
         }
     }
 }
