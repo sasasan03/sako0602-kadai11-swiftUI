@@ -8,7 +8,8 @@
 import Foundation
 
 struct Prefecture {
-    static let all:[String?] = [
+    static let all: [String] = [
+//    static let all:[String?] = [
         "北海道",
         "青森",
         "岩手",
